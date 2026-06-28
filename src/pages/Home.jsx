@@ -15,7 +15,7 @@ const FILTERS = ["all", "personal", "work", "ideas", "other"];
 
 // Shared axios helper — logs full error to console, shows message in toast
 const apiCall = async (method, url, data, token) => {
-  console.log("api called");
+  console.log("api called jp");
   try {
     const res = await axios({
       method,
