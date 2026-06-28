@@ -10,7 +10,8 @@ import Sidebar from "../component/Sidebar";
 import { useAuth } from "../contex/ContextProvider";
 import { Link } from "react-router-dom";
 
-const API = "https://note-dacr.onrender.com";
+// const API = "https://note-dacr.onrender.com";
+const API = "https://jayesh-software-backend.onrender.com";
 const FILTERS = ["all", "personal", "work", "ideas", "other"];
 
 // Shared axios helper — logs full error to console, shows message in toast
