@@ -3,7 +3,7 @@ import React, { createContext, useContext, useEffect, useState } from 'react'
 import { toast } from 'react-toastify'
 
 const authContext = createContext()
-const API = 'https://note-dacr.onrender.com'
+const API = 'https://jayesh-software-backend.onrender.com'
 
 const ContextProvider = ({ children }) => {
   const [user, setUser] = useState(null)
